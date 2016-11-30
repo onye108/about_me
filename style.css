@@ -1,25 +1,30 @@
 
-h1,h2 { color:green;}
+h1,h2 {
+    color:green;
+      }
+
 body {
-  background-image:  url("background.jpg");
-  color:white;
-}
+    background-image:  url("background.jpg");
+    color:yellow;
+      }
+
 .right {
-    color: yellow;
+    color: red;
     background-color:black;
     position: absolute;
     right: 0px;
     width: 300px;
     border: 3px dashed red;
-    padding: 10px;}
-.contact{
-        background-color:black;
-        position: absolute;
-        bottom: 0px;
-        border: 3px dashed red;
-        padding: 10px;}
+    padding: 10px;
+      }
 
+.contact {
 
-
-/*style="border:dashed;background-color:black;color:white;padding:20px;"*/
-/*style="border:dashed;background-color:black;color:white;right-padding:60px;left-align:50;"*/
+    color: green;
+    background-color:black;
+    position: absolute;
+    bottom: 0px;
+    border: 3px dashed red;
+    padding: 5px;
+    
+      }

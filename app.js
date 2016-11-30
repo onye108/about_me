@@ -1,6 +1,5 @@
 'use strict';
 
-// The questions in the guessing game must require a mix of yes/no answers, and user input must accept either y/n or yes/no questions, with either .toUpperCase() or .toLowerCase() used to validate the user input and accommodate users entering all-caps Y/N or YES/NO answers, too.
 
 var response1 = prompt('Does Chika have any dogs?');
 

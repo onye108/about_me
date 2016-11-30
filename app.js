@@ -1,6 +1,5 @@
 'use strict';
 
-
 var response1 = prompt('Does Chika have any dogs?');
 
 if (response1.toLowerCase() === 'yes' || response1.toLowerCase() === 'y') {
@@ -49,14 +48,36 @@ if (response4.toLowerCase() === 'yes' || response4.toLowerCase() === 'y') {
 }
 console.log('Chika changed my life!');
 
-var response5 = prompt('Do you also believe that Chika will be a mogul ?');
+var response5 = prompt('Does Chika enjoy being outdoors?');
 
 if (response5.toLowerCase() === 'yes' || response5.toLowerCase() === 'y') {
-  alert('He\'s a jack of many trades huh?');
+  alert('Mr.National Geographic right?');
 } else if (response2 === 'no' || response2 === 'n')
 {
-  alert('Oh ye of little faith!');
+  alert('Think again');
 }else {
   alert('Say What?');
 }
-console.log('Chika will end poverty in his family!');
+console.log('Chika loves the outdoors!');
+
+var response6 = prompt('How many countries has Chika beeen to?');
+
+if (response6 !== '17' || response6.toLowerCase() !== 'seventeen'){
+  prompt('Wrong answer, How many countries has Chika been to?');
+} else if (response6 === '17' || response6.toLowerCase() === 'seventeen'){
+  alert ('Correct!');
+} else {
+  alert('Is that even a number?');
+}
+console.log('Chika has been around the world and back.');
+
+var response7 = prompt('What is Chika\'s favorite number?');
+
+if (response7 !== '5' || response6.toLowerCase() !== 'five'){
+  prompt('Wrong answer.Try again');
+} else if (response7 === '5' || response7.toLowerCase() === 'five'){
+  alert ('Correct!');
+} else {
+  alert('Is that even a number?');
+}
+console.log('Chika\'s favorite number is 5 .');

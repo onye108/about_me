@@ -1,7 +1,8 @@
-h1,h2{
+h1,h2 {
   outline: 1px solid red;
-
 }
+
 body {
-  background-image:  url("amberjack.jpg");
+  background-image:  url("background.jpg");
+  color:yellow;
 }

@@ -1,8 +1,25 @@
-h1,h2 {
-  outline: 1px solid red;
-}
 
+h1,h2 { color:green;}
 body {
   background-image:  url("background.jpg");
-  color:yellow;
+  color:white;
 }
+.right {
+    color: yellow;
+    background-color:black;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px dashed red;
+    padding: 10px;}
+.contact{
+        background-color:black;
+        position: absolute;
+        bottom: 0px;
+        border: 3px dashed red;
+        padding: 10px;}
+
+
+
+/*style="border:dashed;background-color:black;color:white;padding:20px;"*/
+/*style="border:dashed;background-color:black;color:white;right-padding:60px;left-align:50;"*/

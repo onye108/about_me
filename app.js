@@ -1,4 +1,6 @@
 'use strict';
+
+function answer1(){
 var correctAnswer = 0;
 
 var response1 = prompt('Does Chika have any dogs?');
@@ -12,7 +14,11 @@ if (response1.toLowerCase() === 'yes' || response1.toLowerCase() === 'y') {
   alert('What are you even talking about');
 }
 console.log('Chika has a dog name Samson');
+}
 
+answer1()
+
+function answer2(){
 var response2 = prompt('Does Chika have any siblings?');
 
 if (response2.toLowerCase() === 'yes' || response2.toLowerCase() === 'y') {
@@ -24,7 +30,11 @@ if (response2.toLowerCase() === 'yes' || response2.toLowerCase() === 'y') {
   alert('Say What?');
 }
 console.log('Lord is the 2nd oldest child of 5');
+}
 
+answer2()
+
+function answer3(){
 var response3 = prompt('Does Chika like to fish?');
 
 if (response3.toLowerCase() === 'yes' || response3.toLowerCase() === 'y') {
@@ -36,7 +46,11 @@ if (response3.toLowerCase() === 'yes' || response3.toLowerCase() === 'y') {
   alert('Say What?');
 }
 console.log('Chika absolutely loves to fish');
+}
 
+answer3()
+
+function answer4(){
 var response4 = prompt('Have you met Chika before?');
 
 if (response4.toLowerCase() === 'yes' || response4.toLowerCase() === 'y') {
@@ -48,7 +62,11 @@ if (response4.toLowerCase() === 'yes' || response4.toLowerCase() === 'y') {
   alert('Say What?');
 }
 console.log('Chika changed my life!');
+}
 
+answer4()
+
+function answer5() {
 var response5 = prompt('Does Chika enjoy being outdoors?');
 
 if (response5.toLowerCase() === 'yes' || response5.toLowerCase() === 'y') {
@@ -61,6 +79,9 @@ if (response5.toLowerCase() === 'yes' || response5.toLowerCase() === 'y') {
 }
 console.log('Chika loves the outdoors!');
 
+answer5()
+
+function answer6(){
 var answer = 17;
 
 for ( var i = 0; i < 4 ; i++){
@@ -76,11 +97,13 @@ for ( var i = 0; i < 4 ; i++){
   }
   if(i === 3){ alert('Hey, you are out of chances!');
   }
+}console.log('Chika has been around the world and back.');
 }
 
+answer6()
 
-console.log('Chika has been around the world and back.');
 
+function answer7(){
 
 var countries = ['qatar', 'spain', 'azores', 'egypt', 'romania'];
 var countryCorrect = false;
@@ -108,3 +131,6 @@ if(countryCount === 5){
 }
 
 console.log('Thanks for playing my game.');
+}
+
+answer7()

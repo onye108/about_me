@@ -1,4 +1,5 @@
 'use strict';
+var correctAnswer = 0;
 
 var response1 = prompt('Does Chika have any dogs?');
 
@@ -60,24 +61,50 @@ if (response5.toLowerCase() === 'yes' || response5.toLowerCase() === 'y') {
 }
 console.log('Chika loves the outdoors!');
 
-var response6 = prompt('How many countries has Chika beeen to?');
+var answer = 17;
 
-if (response6 !== '17' || response6.toLowerCase() !== 'seventeen'){
-  prompt('Wrong answer, How many countries has Chika been to?');
-} else if (response6 === '17' || response6.toLowerCase() === 'seventeen'){
-  alert ('Correct!');
-} else {
-  alert('Is that even a number?');
+for ( var i = 0; i < 4 ; i++){
+  var response6 = parseInt(prompt('How many countries has Chika traveled to?'));
+
+  if(response6 < answer){ alert('Too low, Try again.');
+  }
+  if(response6 > answer ){ alert('Too high, try again.');
+  }
+  if (response6 === answer ){ alert('You are correct');
+    i = 4;
+    correctAnswer += 1;
+  }
+  if(i === 3){ alert('Hey, you are out of chances!');
+  }
 }
+
+
 console.log('Chika has been around the world and back.');
 
-var response7 = prompt('What is Chika\'s favorite number?');
 
-if (response7 !== '5' || response6.toLowerCase() !== 'five'){
-  prompt('Wrong answer.Try again');
-} else if (response7 === '5' || response7.toLowerCase() === 'five'){
-  alert ('Correct!');
-} else {
-  alert('Is that even a number?');
+var countries = ['qatar', 'spain', 'azores', 'egypt', 'romania'];
+var countryCorrect = false;
+var countryCount = 0;
+
+while (countryCount > 0){
+  var response7 = parseInt(prompt('Name one country that I have traveled to').toLowerCase);
 }
-console.log('Chika\'s favorite number is 5 .');
+for (var i = 0; i < countries.length; i++){
+
+if (response7 === countries[i]){ alert('Great Job!');
+  correctAnswer += 1;
+  countryCorrect = true;
+break;
+}
+}
+if (countryCorrect){
+ break;
+}
+countryCount +=1;
+response7 = prompt('You are wrong.');
+}
+if(countryCount === 5){
+  break;
+}
+
+console.log('Thanks for playing my game.');

@@ -127,6 +127,8 @@ function answer7(){
     alert('You are wrong.');
   }//END OF WHILE LOOP
 
+
+//Last piece is displaying the total number correct and incorrect at the end
   console.log('Thanks for playing my game.');
 }
 

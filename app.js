@@ -79,7 +79,7 @@ function answer5() {
 }
 
 answer5()
-
+//*****************************Guessing Game*********************************
 function answer6(){
   var answer = 17;
   for ( var i = 0; i < 4 ; i++){
